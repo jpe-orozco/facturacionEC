@@ -1,0 +1,72 @@
+body {
+font: 100% verdana, arial, sans-serif;
+background-color: #fff; /* color de fondo de toda la hoja*/
+margin: 10px;
+}
+
+/* begin css tabs */
+
+ul#tabnav { /* general settings */
+text-align: center; /* set to left, right or center */
+margin: 5em 10 5em 10; /* set margins as desired */
+font: bold 11px verdana, arial, sans-serif; /* set font as desired */
+border-bottom: 1px solid #6c6; /* set border COLOR as desired */
+list-style-type: none;
+padding: 3px 10px 3px 10px; /* THIRD number must change with respect to padding-top (X) below */
+}
+
+ul#tabnav li { /* do not change */
+display: inline;
+}
+
+body#tab2 li.tab1, body#tab2 li.tab2, body#tab3 li.tab3, body#tab4 li.tab4 { /* settings for selected tab */
+border-bottom: 5px solid #99CCFF; /* set border color to page background color */
+background-color:#99CCFF /* set background color to match above border color */
+}
+
+body#tab2 li.tab1 a, body#tab2 li.tab2 a, body#tab3 li.tab3 a, body#tab4 li.tab4 a { /* configuración del botón seleccionado */
+color: #000; /* color de la letra del botón seleccionado*/ 
+position: relative;
+top: 1px;
+padding-top: 1px; /* alto de la linea superior del botón seleccionado */
+}
+
+body#tab3 li.tab1, body#tab2 li.tab2, body#tab3 li.tab3, body#tab4 li.tab4 { /* settings for selected tab */
+border-bottom: 5px solid #99CCFF; /* set border color to page background color */
+background-color: #99CCFF; /* set background color to match above border color */
+}
+
+body#tab3 li.tab1 a, body#tab2 li.tab2 a, body#tab3 li.tab3 a, body#tab4 li.tab4 a { /* configuración del botón seleccionado */
+color: #000; /* color de la letra del botón seleccionado*/ 
+position: relative;
+top: 1px;
+padding-top: 1px; /* alto de la linea superior del botón seleccionado */
+}
+
+body#tab4 li.tab1, body#tab2 li.tab2, body#tab3 li.tab3, body#tab4 li.tab4 { /* settings for selected tab */
+border-bottom: 5px solid #99CCFF; /* set border color to page background color */
+background-color: #99CCFF; /* set background color to match above border color */
+}
+
+body#tab4 li.tab1 a, body#tab2 li.tab2 a, body#tab3 li.tab3 a, body#tab4 li.tab4 a { /* configuración del botón seleccionado */
+color: #000; /* color de la letra del botón seleccionado*/ 
+position: relative;
+top: 1px;
+padding-top: 1px; /* alto de la linea superior del botón seleccionado */
+}
+
+
+ul#tabnav li a { /* settings for all tab links */
+padding: 3px 4px; /* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+border: 1px solid #6c6; /* set unselected tab background color as desired */
+color: #666; /*color de la LETRA los botones que NO están seleccionados*/
+margin-right: 0px; /* set additional spacing between tabs as desired */
+text-decoration: none;
+border-bottom: none;
+}
+
+ul#tabnav a:hover { /* settings for hover effect */
+background: #ccc; /* color cuando el se pasa la mano por el botón */
+}
+
+/* end css tabs */
