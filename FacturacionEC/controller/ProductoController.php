@@ -2,7 +2,7 @@
 /**
  * Description of ProductoControlller
  *
- * @author JJ
+ * @authorPOM
  */
 class ProductoController extends ControladorBase{
     public $conectar;
